@@ -16,11 +16,53 @@ header img{
     width: 100%;
 }
 
-
-
 /*------------------main---------------*/
+
+main{
+    display: flex;
+    text-align: center;
+}
+.child1{
+background-color: rgb(39, 38, 38);
+flex:40%;
+padding: 30px;
+color: white;
+}
+.child2{
+background-color: whitesmoke;
+flex: 60%;
+padding: 30px;
+margin: 20px;
+font-family: cursive;
+}
+p{
+    padding: 20px;
+    text-align: justify;
+    width: 880px;
+    margin: auto;
+}
+article{
+    text-align: justify;
+    width: 880px;
+    margin: auto;
+}
+
+.taille{
+    width: 700px;
+}
+.deco{
+    text-decoration: none;
+    background-color:rgb(103, 160, 103) ;
+    border-radius: 5px;
+    font-size: 40px;
+    color: white;
+}
 /*------------------footer---------------*/
 footer{
+    display: flex;
     background-color: rgb(44, 36, 36);
     height: 250px;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
 }

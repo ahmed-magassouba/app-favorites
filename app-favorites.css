@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Akronim&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -17,27 +19,81 @@ header img{
 }
 /*------------------main---------------*/
 body{
-    background-color: rgb(241, 232, 247);
+    background-color: rgb(19, 148, 187);
+}
+
+.stl{
+    font-family: 'Akronim', cursive;
+    font-size: 80px;
+    text-align: center;
 }
 
 section{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    padding: auto;
-    align-content: stretch;
 }
 
 .element{
     width: 300px;
-    height:300px ;
-    background-color: crimson;
-    
-   
+    height:500px ;
+    background-color: rgba(117, 190, 218, 0.5);
+    margin: 20px;
+    padding: 30px;
+    opacity: 1;
+    border-radius: 5px;
+    font-family: cursive;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border:10px solid  rgb(19, 148, 187);   
+    box-shadow: -10px -10px 10px rgba(255, 255, 255, 0.2) , 
+                15px  15px 15px rgba(0, 0, 0, 0.2),
+                inset -10px -10px 10px rgba(255, 255, 255, 0.2),
+                inset 15px  15px 15px rgba(0, 0, 0, 0.2) ; 
 }
+
+.element:hover{
+    background-color: rgb(240, 244, 248);
+}
+
+.taille{
+    width: 200px;
+    height: 200px;
+}
+.bde{
+    display: flex;
+    justify-content: space-between;
+}
+
+.child2{
+    flex: 3;
+}
+.child3{
+    flex: 1;
+}
+.child4{
+    flex: 1;
+}
+.deco{
+     text-decoration: none;
+     background-color:rgb(103, 160, 103) ;
+     border-radius: 5px;
+     font-size: 20px;
+     color: white;
+}
+
+
+
+
 
 /*------------------footer---------------*/
 footer{
+    display: flex;
     background-color: rgb(44, 36, 36);
     height: 250px;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
 }
