@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*------------------header---------------*/
+header{
+    height: 200px;
+    text-align: center;
+    position: relative;
+}
+header img{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+/*------------------main---------------*/
+/*------------------footer---------------*/
+footer{
+    background-color: rgb(44, 36, 36);
+    height: 250px;
+}
