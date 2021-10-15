@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Akronim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
 
 * {
     box-sizing: border-box;
@@ -23,7 +23,7 @@ body{
 }
 
 .stl{
-    font-family: 'Akronim', cursive;
+    font-family: 'Bad Script', cursive;
     font-size: 80px;
     text-align: center;
 }
@@ -64,7 +64,7 @@ section{
 }
 .bde{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
    
 }
 .child1{
@@ -75,11 +75,10 @@ section{
 
 .child2{
     flex: 1;
-    position: relative;
 }
 .child3{
     flex: 1;
-    position: relative;
+    align-items: flex-end;
 }
 .deco{
      text-decoration: none;
