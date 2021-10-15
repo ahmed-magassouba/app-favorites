@@ -17,10 +17,14 @@ header img{
 }
 
 
-
 /*------------------main---------------*/
 /*------------------footer---------------*/
 footer{
-    background-color: rgb(44, 36, 36);
-    height: 250px;
-}
+        display: flex;
+        background-color: rgb(44, 36, 36);
+        height: 250px;
+        font-size: 25px;
+        justify-content: center;
+        align-items: center;
+    }
+    

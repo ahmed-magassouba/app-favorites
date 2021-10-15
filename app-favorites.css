@@ -35,11 +35,11 @@ section{
 }
 
 .element{
-    width: 300px;
-    height:500px ;
+    width: 250px;
+    height:480px ;
     background-color: rgba(117, 190, 218, 0.5);
     margin: 20px;
-    padding: 30px;
+  
     opacity: 1;
     border-radius: 5px;
     font-family: cursive;
@@ -61,20 +61,27 @@ section{
 .taille{
     width: 200px;
     height: 200px;
+    border-radius: 6px;
 }
 .bde{
     display: flex;
     justify-content: space-between;
+   
 }
-
+.child1{
+    flex: 5;
+}
 .child2{
-    flex: 3;
+    position: relative;
+    flex: 5;
 }
 .child3{
     flex: 1;
+    position: relative;
 }
 .child4{
     flex: 1;
+    position: relative;
 }
 .deco{
      text-decoration: none;
