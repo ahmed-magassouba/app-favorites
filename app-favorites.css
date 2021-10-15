@@ -9,7 +9,7 @@
 
 /*------------------header---------------*/
 header{
-    height: 200px;
+    height: 100px;
     text-align: center;
     position: relative;
 }
@@ -35,8 +35,8 @@ section{
 }
 
 .element{
-    width: 250px;
-    height:480px ;
+    width: 218px;
+    height:490px ;
     background-color: rgba(117, 190, 218, 0.5);
     margin: 20px;
   
@@ -55,7 +55,7 @@ section{
 }
 
 .element:hover{
-    background-color: rgb(240, 244, 248);
+    background-color:white;
 }
 
 .taille{
@@ -99,7 +99,7 @@ section{
 footer{
     display: flex;
     background-color: rgb(44, 36, 36);
-    height: 250px;
+    height: 100px;
     font-size: 25px;
     justify-content: center;
     align-items: center;

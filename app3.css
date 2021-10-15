@@ -24,10 +24,10 @@ main{
     text-align: center;
 }
 .child1{
-background-color: rgba(226, 213, 31, 0.986);
+background-color: rgba(223, 238, 223, 0.986);
 padding: 10px;
 margin: 10px;
-color: white;
+color: rgb(17, 15, 15);
 width: 550px;
 font-size: 25px;
 }
@@ -50,6 +50,7 @@ p{
     text-align: justify;
     width: 500px;
     margin: auto;
+    
 }
 article{
     text-align: justify;

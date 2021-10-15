@@ -6,8 +6,9 @@
 
 
 /*------------------header---------------*/
+
 header{
-    height: 200px;
+    height: 100px;
     text-align: center;
     position: relative;
 }
@@ -15,7 +16,6 @@ header img{
     height: 100%;
     width: 100%;
 }
-
 /*------------------main---------------*/
 
 main{
@@ -24,21 +24,30 @@ main{
 }
 .child1{
 background-color: rgb(39, 38, 38);
-flex:40%;
-padding: 30px;
+padding: 10px;
+margin: 10px;
 color: white;
+width: 550px;
+font-size: 25px;
 }
 .child2{
 background-color: whitesmoke;
-flex: 60%;
-padding: 30px;
-margin: 20px;
+padding: 10px;
+margin: 10px;
 font-family: cursive;
+width: 950px;
 }
 p{
     padding: 20px;
     text-align: justify;
     width: 880px;
+    margin: auto;
+}
+
+.pchild1{
+    padding: 20px;
+    text-align: justify;
+    width: 500px;
     margin: auto;
 }
 article{
@@ -48,7 +57,7 @@ article{
 }
 
 .taille{
-    width: 700px;
+    width: 500px;
 }
 .deco{
     text-decoration: none;
@@ -61,7 +70,7 @@ article{
 footer{
     display: flex;
     background-color: rgb(44, 36, 36);
-    height: 250px;
+    height: 100px;
     font-size: 25px;
     justify-content: center;
     align-items: center;
