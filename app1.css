@@ -21,6 +21,7 @@ header img{
 main{
     display: flex;
     text-align: center;
+    justify-content: center;
 }
 .child1{
 background-color: rgb(39, 38, 38);

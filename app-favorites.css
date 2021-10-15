@@ -35,11 +35,10 @@ section{
 }
 
 .element{
-    width: 218px;
+    width: 518px;
     height:490px ;
     background-color: rgba(117, 190, 218, 0.5);
     margin: 20px;
-  
     opacity: 1;
     border-radius: 5px;
     font-family: cursive;
@@ -65,21 +64,20 @@ section{
 }
 .bde{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
    
 }
 .child1{
+    display: flex;
     flex: 5;
+    font-size: 25px;
 }
+
 .child2{
-    position: relative;
-    flex: 5;
-}
-.child3{
     flex: 1;
     position: relative;
 }
-.child4{
+.child3{
     flex: 1;
     position: relative;
 }
@@ -87,7 +85,7 @@ section{
      text-decoration: none;
      background-color:rgb(103, 160, 103) ;
      border-radius: 5px;
-     font-size: 20px;
+     font-size: 25px;
      color: white;
 }
 
