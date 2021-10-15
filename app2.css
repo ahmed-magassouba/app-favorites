@@ -22,6 +22,7 @@ header img{
 main{
     display: flex;
     text-align: center;
+    justify-content: center;
 }
 .child1{
 background-color: rgba(226, 213, 31, 0.986);
