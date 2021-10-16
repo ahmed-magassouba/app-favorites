@@ -65,7 +65,7 @@ section{
 .bde{
     display: flex;
     justify-content: space-around;
-   
+    align-items: flex-end;
 }
 .child1{
     display: flex;
@@ -74,11 +74,12 @@ section{
 }
 
 .child2{
-    flex: 1;
+    display: grid;
+    flex: 2;
 }
 .child3{
     flex: 1;
-    align-items: flex-end;
+   
 }
 .deco{
      text-decoration: none;
